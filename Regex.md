@@ -48,7 +48,7 @@ Grouping constructs are characters that can be used to apply quantifiers to mult
 Inside brackets are the characters that need to match. You can also use hyphens to define a set of characters within the brackets. In the above expression, [\da-z\.-] matches all letters A-Z, as well as periods and hyphens.
 
 # Character Classes:
-Character classes are the sets of characters enclosed within brackets. For example, [a-z] is a character class representing all letters from A-Z. They can also be negated by putting '^' at the beginning of the bracket, such as [^a-z] (This will tell the expression to not include any character that is a-z.) Another example in the above expression is '\d', which is equal to /[0-9]/, and \w is equal to [A-Za-z0-9_].
+Character classes are the sets of characters enclosed within brackets that can represent a wide variety of characters. For example, [a-z] is a character class representing all letters from A-Z. They can also be negated by putting '^' at the beginning of the bracket, such as [^a-z] (This will tell the expression to not include any character that is a-z.) Another example in the above expression is '\d', which is equal to /[0-9]/, and \w is equal to [A-Za-z0-9_].
 
 # The OR Operator:
 
