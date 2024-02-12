@@ -58,7 +58,7 @@ Flags are trailing characters after the pattern to apply further filtering rules
 
 
 # Character Escapes:
-Character escapes are used to represent characters that may be difficult to literally type out in a regular expression, such as linebreaks '/n'
+Character escapes are used to represent characters that may be difficult to literally type out in a regular expression. These include linebreaks '\n', the full range of numbers '\d', all inclusive alphanumeric characters '\w', and whitespaces '\s'. The above expression uses both \d and \w to include all numbers and all alphanumeric characters in the match in the website name and the routes respectively.
 
 # Author
 For further questions, please contact at [github.com/OC-Kai](https://github.com/OC-Kai) or <a href = "mailto:ArthurJStone96@gmail.com">ArthurJStone96@gmail.com</a>.
